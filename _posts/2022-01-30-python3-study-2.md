@@ -42,7 +42,10 @@ for i in range(T):
 		print(j, end=' ')
 	print()
 ```
-이 문제는 리스트에 sort()를 이용하는 간단한 문제입니다. 처음 `sys.stdin.readline()`으로 풀려고 했지만, SW에서는 sys 라이브러리를 결과 제출에 사용할 수 없어 input()으로 해결했습니다. {: .notice} 
+<div class="notice--primary" markdown="1">
+이 문제는 리스트에 sort()를 이용하는 간단한 문제입니다. 처음 `sys.stdin.readline()`으로 풀려고 했지만, SW에서는 sys 라이브러리를 결과 제출에 사용할 수 없어 input()으로 해결했습니다.
+</div>
+
 
 ## 2050. 알파벳을 숫자로 변환
 ### 문제
