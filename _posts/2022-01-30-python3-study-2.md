@@ -67,7 +67,10 @@ for i in line:
 	print(ord(i)-64, end=' ')
 ```
 
+<div class="notice--primary" markdown="1">
 이 문제는 문자를 아스키코드로 변경하여 풀었습니다.
+</div>
+
 
 # 백준
 ## 2577. 숫자의 개수
@@ -92,7 +95,10 @@ for key, value in dic.items():
 	print(value)
 ```
 
+<div class="notice--primary" markdown="1">
 이 문제의 **결과에 0 이 몇 번 쓰였는지 출력한다. 마찬가지로 둘째 줄부터 열 번째 줄까지 A × B × C의 결과에 1부터 9까지의 숫자가 각각 몇 번 쓰였는지 차례로 한 줄에 하나씩 출력**이라는 문장을 보고 딕셔너리로 풀어야겠다는 생각을 했습니다. 그래서 딕셔너리에 0~9까지를 넣고 value에 0을 넣어서 풀었습니다. 당시 딕셔너리에 0을 넣지 않아 오류가 발생하였고 이것은 문제와 예제 출력을 정확하게 보지 않아서 생긴 문제였습니다.
+</div>
+
 
 ## 8958. OX퀴즈
 ### 문제
@@ -120,7 +126,10 @@ for i in range(t):
 			result += num
 		print(result)
 ```
+
+<div class="notice--primary" markdown="1">
 이 문제의 핵심은 점수를 초기화해주는 것이다.
+</div>
 
 ## 10828. 스택
 ### 문제
@@ -164,4 +173,7 @@ for i in range(t):
 			else:
 				print(stack[-1])
 ```
+
+<div class="notice--primary" markdown="1">
 이 문제는 리스트를 자유롭게 다룰 수 있다면 쉽게 풀 수 있는 문제입니다. 여기서 `sys.stdin.readlin()`을 사용하지 않으면 시간 초과가 되기 때문에 조심해야 합니다.
+</div>
