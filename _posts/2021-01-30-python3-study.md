@@ -1,13 +1,13 @@
 ---
-title: "Post test"
-last_modified_at: 2022-01-30T17:16:00-05:00
+title: "python3 study"
+last_modified_at: 2022-01-30T20:00:00-05:00
 categories:
-  - Post Formats
+  - python3
 tags:
-  - Post Pormats
-  - standard
+  - Baekjoon
+  - SW Expert Academy
 toc: true
-toc_label: "포스트 포맷"
+toc_label: "파이썬 기초"
 toc_iocn: #
 toc_sticky: true
 
