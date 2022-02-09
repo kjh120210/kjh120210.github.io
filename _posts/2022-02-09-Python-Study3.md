@@ -1,6 +1,6 @@
 ---
 title: "Python 스터디 3주차"
-last_modified_at: 2022-0-09T18:49:00-05:00
+last_modified_at: 2022-02-09T18:49:00-05:00
 categories:
   - Python
 tags:
